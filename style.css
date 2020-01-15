@@ -1,6 +1,10 @@
 body{
-    background-image: url(luke-chesser.jpg);
+    background: url(luke-chesser.jpg) no-repeat center center fixed;
+    height: 100%;
+    background-size:;
+    background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 h1, h2, h3 {
     text-align: center;
@@ -9,7 +13,7 @@ h1, h2, h3 {
 
 }
 
-p, h1, h2, h3 { 
+h1, h2, h3 { 
     font-size: 140%;
     font-family: 'Sniglet', cursive;
     text-align: center;
@@ -29,6 +33,19 @@ p, h1, h2, h3 {
 }
 
 .imagesinstagram {
-    margin: 2px;
+    margin: 50px;
     text-align: center;
+    padding-top: 0px;
+}
+
+.fa-icon {
+    color: lawngreen;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
 }
